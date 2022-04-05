@@ -1,0 +1,83 @@
+@import "colors";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.div-main{
+    margin:{
+            top:70px;
+        }
+
+}
+.card {
+    color:rgb(110, 99, 99);
+    margin: 0 auto;
+	width: 500px;
+    box-shadow: 4px 4px 10px rgb(204, 198, 198);
+    border-radius: 10px;
+    font-family: Roboto;
+  
+    box-sizing: border-box;
+    .headings{
+        padding: 20px;
+        .p-h1{
+            font-weight: bold;
+            color:rgb(14, 177, 169);
+        }
+        .p-h2{
+            color:green;
+            font-size:16px;
+        }
+
+    }
+    
+    .div-subscription{
+        display: flex;
+        flex-direction: row;
+        color:white;
+        
+        .sign-up{
+            background-color:rgb(14, 177, 169); 
+            padding: 20px;
+            width: 50%;  
+            .p-subscription{
+                font-weight: bold;
+
+            }
+            .p-cost{
+                font-size: 10px; 
+                .span-cost{
+                    font-size:31px;
+                    margin-right: 10px;
+                    font-weight: bold;
+                }
+            }
+
+        }
+        .about-us{
+            background-color:rgb(34, 190, 183);
+            padding: 20px;
+            width: 50%; 
+            .p-why{
+                    font-weight: bold;
+
+            } 
+            .p-why-details{
+                font-size:15px;
+            }
+        }
+        .btn-sign-up{
+            border: none;
+            width: 200px;
+            background-color:rgb(62, 167, 62);
+            padding:10px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+
+    }
+}
+
+.p-small{
+    font-size: 13px;
+
+}
